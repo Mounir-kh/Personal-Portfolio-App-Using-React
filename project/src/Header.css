@@ -1,0 +1,45 @@
+.Header{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background-color: rgb(27, 26, 26);
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(236, 234, 234);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 100%;
+}
+.Header__left{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10%;
+    color: aqua;
+}
+.Header__left img{
+    border-radius: 50%;
+    border: 3px white double;
+    width: 40%;
+    margin: 17px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:  rgb(236, 234, 234);
+}
+.Header__center{
+    width: 60%;
+    padding-right: auto;
+    padding-left: auto;
+    text-align: center;
+}
+.Header__right{
+    justify-content: space-evenly;
+    height: 100%;
+    width: 20%;
+}

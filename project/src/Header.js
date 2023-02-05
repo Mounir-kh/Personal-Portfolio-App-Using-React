@@ -9,18 +9,10 @@ function Header(){
                 <h2>React Developer</h2>
             </div>
             <div className="Header__center">
-                <ul className='header__list'>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Service</a></li>
-                <div className="header__centerMenu">
-                    <button>Projects</button>
-                    <div className="dropDown__header">
-                        <a href="">Amazon</a>
-                        <a href="">Flepcart</a>
-                        <a href="">Tesla</a>
-                    </div>
-                </div>
-                    <li><a href="#">Potfolio</a></li>
+                <ul>
+                    <li> <a href="#yepa">Potfolio</a></li>
+                    <li><a href="https://www.linkedin.com/in/mounir-khaouadi-753918102/" target='_blank'>LinkedIn Account</a></li>
+                    <li><a href="https://github.com/Mounir-kh?tab=repositories" target='_blank'>Github Account</a></li>
                 </ul>
             </div>
             <div className="Header__right">

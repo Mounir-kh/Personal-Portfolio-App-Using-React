@@ -1,5 +1,6 @@
 .Header{
-    width: 100%;
+    width: 100vw;
+    margin-top: 6px;
     display: flex;
     text-align: center;
     background-color: rgb(27, 26, 26);
@@ -9,6 +10,7 @@
     padding-top: 4px;
     padding-bottom: 4px;
     width: 100%;
+    border: aqua 1px dotted;
 }
 .Header__left{
     display: flex;
@@ -37,9 +39,27 @@ a{
     padding-right: auto;
     padding-left: auto;
     text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.Header__center ul li {
+    padding: 20px;
 }
 .Header__right{
     justify-content: space-evenly;
+    margin: 20px;
+    display: flex;
+    background-color: aqua;
     height: 100%;
     width: 20%;
+    border-radius: 5px;
+}
+.Header__right button{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.Header__right button:hover{
+    background-color: rgb(201, 254, 254);
+    font-weight: bold;
 }

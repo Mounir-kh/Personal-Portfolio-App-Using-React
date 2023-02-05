@@ -1,4 +1,32 @@
 .footer{
-    height: 120px;
     color: white;
+    padding-left: 60%;
 }
+.footer h2{
+    color: aqua;
+}
+.footer form label{
+    margin: 4%;
+}
+.footer form input{
+    background-color: rgb(147, 147, 147);
+    border: aqua 2px solid;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.message{
+    width: 240px;
+    height: 150px;
+}
+.send{
+    width: 240px;
+}
+.send:hover{
+    background-color: rgb(236, 193, 78);
+    padding: 5px;
+    margin: 5px;
+}
+.message .send{
+    margin-left: 190px;
+}
+

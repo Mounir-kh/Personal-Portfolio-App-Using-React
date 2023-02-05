@@ -1,33 +1,14 @@
 *{
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: black;
+  width: 100vw;
+}
 .App {
   text-align: center;
-  background-color: black;
   padding-right: 3%;
   padding-left: 3%;
   padding-bottom: 2%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
